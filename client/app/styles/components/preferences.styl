@@ -1,0 +1,26 @@
+@import '../_header'
+force-device = 'mobile'
+preferences
+	.meal-plans
+		meal-plan-list()
+	.portions
+		portion-list()
+force-device = null
+
+preferences
+	the-layout()
+	.preferred-portion, .preferred-meal-plan, .allergies >
+		.value, label
+			r-padding-left 45px 27px
+	.allergies
+		> label
+			background no-repeat 0 2px
+			r-image '/app/common/images/allergies.%-text.png' 29 16
+	.preferred-meal-plan
+		label
+			meal-plan-icon $text-color 27 18		
+	.preferred-portion
+		label
+			portion-icon $text-color 23 15
+	.meal-plans, .portions
+		d-width 290px

@@ -1,0 +1,521 @@
+$peach = #FBF4ED
+$peachdk = #FAE9D9
+$greydk = #3A3E42
+$grey = #919294
+$greylt = #BBBDBF
+$greylt2 = #B7BBC0
+$greylt3 = #DEE0E4
+$greylt4 = #E1E1E1
+$greylt5 = #D9D9D9
+$greylt6 = #A0A0A0
+$greylt7 = #ECECEC
+$greylt8 = #6A6A6A
+$greylt9 = #E6E6E6
+$greyblue = #7392B7
+$orange = #EC5623
+$white = #FFFFFF
+$shadow = rgba(0, 0, 0, 0.3)
+
+header {
+	* {
+		box-sizing: content-box;
+	}
+	height: 95px;
+	padding: 0 48px 0 33px;
+	font-size: 20px;
+	line-height: 95px;
+	background-color: $white;
+	border: 1px solid $greylt2;
+	border-radius: 3px;
+	font-family: 'League Spartan';
+
+	#logo {
+		width: 140px;
+		float: left;
+		margin-right: 70px;
+		background: url(image-base + 'header/fitnessrationlogo.svg') center center no-repeat;
+		font-size: 0;
+	}
+
+	#togglembnav {
+		display: none;
+	}
+
+	.order {
+		background-image: none;
+		padding: 14px 40px;
+		border-radius: 25px;
+		background-color: $orange;
+		font-family: 'League Spartan';
+	
+		&, &:hover {
+			color: $white;
+		}
+	}
+
+	/* navigation */
+
+	nav {
+		font-weight: 700;
+		color: $greylt6;
+
+		.secondarynav {
+			float: right;
+		}
+
+		a {
+			color: $greylt6;
+		}
+
+		& > ul {
+
+			li {
+				float: left;
+			}
+
+			& > li {
+				margin-right: 30px;
+				padding-right: 26px;
+				background: url(image-base + 'header/arrow.svg') right 44px no-repeat;
+
+				&.show {
+					color: $greydk;
+					background-image: url(image-base + "header/arrowu-blk.svg");
+					background-position: right 43px;
+					cursor: default;
+
+					ul {
+						display: block;
+					}
+				}
+			}
+
+			ul {
+				display: none;
+				position: absolute;
+				top: 95px;
+				left: -1px;
+				right: -1px;
+				background-color: $white;
+				border: 1px solid $greylt2;
+
+				li {
+					text-align: center;
+					text-transform: uppercase;
+
+					a {
+						display: block;
+						padding-top: 68px;
+						width: 150px;
+						margin: 0 auto;
+						letter-spacing: 2px;
+					}
+				}
+			}
+		}
+
+		.about, .meals {
+
+			li a {
+				background-position: center 28%;
+				background-repeat: no-repeat;
+				&:hover {
+					color #EC5623
+				}
+			}
+		}
+
+		.about {
+
+			li {
+				width: 33.33%;
+			}
+
+			.food a {
+				background-image: url(image-base + 'header/iconfood.svg');
+				&:hover {
+					background-image: url(image-base + 'header/food-hover.svg');
+				}
+			}
+
+			.team a {
+				background-image: url(image-base + 'header/iconteam.svg');
+				&:hover {
+					background-image: url(image-base + 'header/team-hover.svg');
+				}
+			}
+
+			.faq a {
+				background-image: url(image-base + 'header/iconfaq.svg');
+				&:hover {
+					background-image: url(image-base + 'header/faq-hover.svg');
+				}
+			}
+		}
+
+		.meals {
+
+			li {
+				width: 25%;
+			}
+
+			.menu a {
+				background-image: url(image-base + 'header/iconmenu.svg');
+				&:hover {
+					background-image: url(image-base + 'header/menu-hover.svg');
+				}
+			}
+
+			.nutrition a {
+				background-image: url(image-base + 'header/iconnutrition.svg');
+				&:hover {
+					background-image: url(image-base + 'header/nutrition-hover.svg');
+				}
+			}
+
+			.rates a {
+				background-image: url(image-base + 'header/iconrates.svg');
+				&:hover {
+					background-image: url(image-base + 'header/rates-hover.svg');
+				}
+			}
+
+			.addons a {
+				background-image: url(image-base + 'header/iconaddons.svg');
+				&:hover {
+					background-image: url(image-base + 'header/addons-hover.svg');
+				}
+			}
+		}
+
+		.phone {
+			background: url(image-base + 'header/rulev48.svg') right center no-repeat;
+			margin-right: 32px;
+			padding-right: 32px;
+
+			&:hover {
+				color: inherit;
+				background: url(image-base + 'header/rulev48.svg') right center no-repeat;
+			}
+		}
+
+		.login {
+			margin-right: 0;
+			padding-right: 62px;
+
+			&, &:hover {
+				background: url(image-base + 'header/iconlogin.png') 96px 28px no-repeat;
+			}
+		}
+
+		.user {
+			position: relative;
+			margin-right: 0;
+			padding-right: 88px;
+
+			&:after {
+				content: '';
+				width: 33px;
+				height: 32px;
+				position: absolute;
+				top: 29px;
+				right: 28px;
+				background: url(image-base + 'header/userprofile.svg') center center no-repeat;
+			}
+
+			ul {
+				left: -34px;
+				right: -49px;
+
+				li {
+					float: none;
+					margin-top: 23px;
+					margin-bottom: 23px;
+					text-align: left;
+					text-transform: none;
+
+					a {
+						width: auto;
+						margin: 0;
+						padding-top: 0;
+						padding-left: 40px;
+						line-height: 30px;
+						letter-spacing: normal;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:959px) {
+
+	header {
+		height: 60px;
+		padding-right: 0;
+		padding-left: 0;
+		line-height: 60px;
+		border: none;
+		border-radius: 0;
+
+		#togglembnav { //make clickable element
+			display: block;
+			width: 60px;
+			height: 60px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: url(image-base + 'header/iconnav.svg') 13px center no-repeat;
+		}
+
+		#logo {
+			width: 160px;
+			margin-left: 59px;
+			background-image: url(image-base + 'header/fitnessrationlogo-mb.svg');
+		}
+
+		.order {
+			display: block;
+			width: 80px;
+			height: 43px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 17px 0 0;
+			font-size: 14px;
+			line-height: 15px;
+			border-radius: 0;
+			text-align: center;
+			word-spacing: 80px;
+		}
+
+		nav {
+			width: 100%;
+			position: absolute;
+			top: 60px;
+			// left: 9999px;
+			display: none;
+			margin-left: 0;
+			font-size: 14px;
+			line-height: 22px;
+			box-sizing: border-box;
+			border: 1px solid $greylt3;
+			background-color: $white;
+
+			& > ul {
+
+				li {
+					float: none;
+					margin-right: 0;
+				}
+
+				& > li {
+					padding: 10px 0 10px 15px;
+					border-bottom: 1px solid $greylt3;
+					padding-right: 15px;
+					background-image: url(image-base + 'header/arrow-sm.svg');
+					background-position: right 18px;
+
+					&.show {
+						background-image: url(image-base + "header/arrowu-blk-sm.svg");
+						background-position: right 17px;
+					}
+				}
+
+				ul {
+					position: static;
+					border: none;
+
+					li {
+						text-align: left;
+						font-size: 12px;
+						line-height: 18px;
+
+						a {
+							width: 100%;
+							margin-top: 10px;
+							margin-bottom: 10px;
+							padding-top: 0;
+							padding-left: 40px;
+						}
+					}
+				}
+			}
+
+			.about, .meals {
+
+				li {
+					width: auto;
+
+					a {
+						background-position: 10px center;
+						background-size: contain;
+					}
+				}
+			}
+
+			.about {
+				&, &.show {
+					background-position: 65px 18px;
+				}
+
+				.team a {
+					background-size: 27px;
+					background-position: 6px center;
+				}
+			}
+
+			.meals {
+				&, &.show {
+					background-position: 95px 18px;
+				}
+
+				.menu a {
+					background-size: 28px;
+					background-position: 6px center;
+				}
+
+				.nutrition a {
+					background-position: 9px center;
+				}
+			}
+
+			.secondarynav {
+				position: relative;
+				float: none;
+
+				& > li {
+					border-bottom: none;
+				}
+			}
+
+			.phone {
+				float: left;
+				margin-right: 0;
+				background: none;
+			}
+
+			.login {
+				float: right;
+				padding-right: 35px;
+
+				&, &.show {
+					background-position: 66px 11px;
+					background-size: 16px;
+				}
+			}
+
+			.user {
+				position: static;
+				float: right;
+				padding-right: 48px;
+
+				&, &.show {
+					background-position: 117px 17px;
+				}
+
+				&:after {
+					width: 16px;
+					height: 16px;
+					top: 11px;
+					right: 25px;
+					background-size: contain;
+				}
+
+				ul {
+					width: 100%;
+					position: absolute;
+					top: 41px;
+					left: -1px;
+					right: -1px;
+					border: 1px solid $greylt3;
+
+					li {
+						margin-top: 18px;
+						margin-bottom: 18px;
+
+						a {
+							padding-right: 0;
+							padding-left: 17px;
+							font-size: 14px;
+							line-height: 22px;
+						}
+					}
+				}
+			}
+		}
+
+
+	}
+}
+
+
+header {
+	#togglembnav.show ~ nav, nav.show {
+		display: block;
+	}
+}
+// @media screen and (min-width:960px) {
+
+// }
+	
+// @media screen and (max-width:959px) {
+// 	header {
+// 		#togglembnav.show ~ nav, nav.show {
+// 			display: block;
+// 		}
+// 	}
+// }
+
+@media screen and (min-width:960px) and (max-width:1259px) {
+	
+	/* header */
+
+	header {
+		font-size: 1.25em;
+
+		nav {
+			margin-left: 40px;
+
+			& > ul > li {
+				margin-right: 20px;
+				padding-right: 21px;
+				background-position: right 43px;
+
+				&.show {
+					background-position: right 42px;
+				}
+			}
+
+			.phone {
+				margin-right: 12px;
+				padding-right: 15px;
+			}
+
+			.login {
+				padding-right: 42px;
+
+				&, &.show {
+					background-position: 62px 35px;
+				}
+			}
+
+			.user {
+				padding-right: 68px;
+
+				ul {
+					left: -14px;
+
+					li a {
+						padding-left: 15px;
+					}
+				}
+			}
+		}
+
+		.order {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+	}
+}

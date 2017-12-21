@@ -1,0 +1,62 @@
+@import '_env'
+image-base = '/app/common/images/'
+@import '../common/styles/_header'
+@import '_components'
+the-layout()
+	+on-mobile()
+		.section
+			padding 20px 20px
+			font-size 14px
+			&:nth-child(odd)
+				background-color white
+			> label
+				display block
+				font-weight bold
+				font-size 15px
+				margin-bottom 10px
+		.edit
+			display block
+			width 100%
+			background-color #EC5623
+			height-vct 50px true
+			color white
+			text-align center
+			font-size 12px
+			font-weight bold
+			text-transform uppercase
+			font-family 'League Spartan'
+	+on-desktop()
+		display block
+		padding-bottom 37px
+		.content
+			// height 351px
+			margin-top 100px
+			display flex
+			flex-wrap wrap
+		.section
+			width 460px
+			min-height 120px
+			margin 0 10px 50px 0
+			font-size 24.03px
+			> label
+				display block
+				margin-bottom 10px
+				font-size 25.75px
+				font-weight bold
+		.footer
+			width auto
+			padding-top 40px
+			border-top 1px solid #DEE0E4
+			.edit
+				display block
+				height-vct 60px
+				width 460px
+				margin 0 auto
+				border-radius 30px
+				background #EC5623
+				color white
+				font-size 18px
+				font-weight bold
+				font-family 'League Spartan'
+				text-align center
+				text-transform uppercase

@@ -1,0 +1,31 @@
+<div class="content">
+	<div class="section allergies">
+		<label>Allergies</label>
+		<span class="value" ng-if="!$ctrl.editing">{{$ctrl.user.profile.preferences.allergies.length ? $ctrl.allergiesList() : 'None'}}</span>
+		<ul ng-if="$ctrl.editing">
+			<li ng-repeat="allergy in $ctrl.allergies"><input type="checkbox" ng-change="$ctrl.allergyChanged()" ng-model="$ctrl.selectedAllergies[allergy._id]"> <label>{{allergy.name}}</label></li>
+		</ul>
+	</div>
+	<div class="section preferred-meal-plan">
+		<label data-background-image="{{query.mealPlan($ctrl.user.profile.preferences.mealPlan).icon}}">Preferred Meal Plan</label>
+		<span class="value" ng-if="!$ctrl.editing">{{query.mealPlan($ctrl.user.profile.preferences.mealPlan).name}}</span>
+		<ul class="meal-plans" ng-if="$ctrl.editing">
+		  <li ng-repeat="mealPlan in $ctrl.mealPlans" data-background-image="{{mealPlan.icon}}" ng-class="{selected:$ctrl.user.profile.preferences.mealPlan._str == mealPlan._id._str}" ng-click="$ctrl.mealPlan = mealPlan._id"><span class="name">{{mealPlan.name}}</span>
+		    <p class="description">{{mealPlan.description}}</p>
+		  </li>
+		</ul>
+	</div>
+	<div class="section preferred-portion">
+		<label data-background-image="{{query.portion($ctrl.user.profile.preferences.portion).icon}}">Preferred Portion</label>
+		<span class="value" ng-if="!$ctrl.editing">{{query.portion($ctrl.user.profile.preferences.portion).name}}</span>
+		<ul ng-if="$ctrl.editing" class="portions">
+		  <li ng-repeat="portion in $ctrl.portions" data-background-image="{{portion.icon}}" ng-class="{selected:$ctrl.user.profile.preferences.portion._str == portion._id._str}" ng-click="$ctrl.portion = portion._id"><span class="name">{{portion.name}}</span>
+		    <p class="description">{{portion.description}}</p>
+		  </li>
+		</ul>
+	</div>
+</div>
+<div class="footer">
+	<a href="#" class="edit edit-preferences" ng-if="!$ctrl.editing" ng-click="$ctrl.edit()">Edit Your Preferences</a>
+	<a href="#" class="edit save" ng-if="$ctrl.editing" ng-click="$ctrl.save()">Save</a>
+</div>

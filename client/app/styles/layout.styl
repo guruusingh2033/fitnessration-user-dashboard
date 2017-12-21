@@ -1,0 +1,101 @@
+@import '_header'
+@import '../common/styles/_website-header';
+@import '../common/styles/_welcome-back';
+@import '../common/styles/_popup';
+websiteheader
+	header
+		position relative
+		z-index 100
+		.login
+			display none
+	display block
+width = 940px
+base()
+force-device = 'mobile'
+.popup
+	.field
+		field()
+force-device = null
+html 
+	background-color $background-b-color
+.head
+	r-height 200px 156px
+	position relative
+	background-color $background-a-color
+	+on-mobile()
+		.name, .preferences
+			left 110px
+	+on-desktop()
+		.name, .preferences
+			left-from-imaginary-container width 178px
+	.picture
+		image()
+		background-size cover
+		border 1px solid $border-color
+		r-square 149px 75px
+		position absolute
+		r-top 22px 27px
+		border-radius 100%
+		overflow hidden
+		.edit
+			r-height 149px 75px
+			r-line-height 149px 75px
+			display block
+			border-radius 100%
+			overflow hidden
+			position relative
+			text-align center
+			background-color rgba(0, 0, 0, .25)
+			color white
+			cursor pointer
+			&:not(:hover)
+				opacity 0
+			input[type="file"]
+				opacity 0 !important
+				font-size 200px !important
+				position absolute !important
+				top 0 !important
+				right 0 !important
+				cursor pointer
+		+on-desktop()
+			left-from-imaginary-container width 0
+		+on-mobile()
+			left 10px
+	.name
+		position absolute
+		r-top 50px 30px
+		font-family 'League Spartan'
+		font-weight bold
+		r-font-size 24px 16px
+	.preferences
+		position absolute
+		r-font-size 26.93px 18px
+		r-top 84px 54px
+		> *:not(:first-child)
+				d-margin-top 7px
+		.meal-plan
+			meal-plan_base $text-color 27 18
+		.portion
+			portion_base $text-color 23 15
+	.nav
+		nav()
+		position absolute
+		+on-desktop()
+			right-from-imaginary-container width 0
+			bottom 0
+		+on-mobile()
+			bottom 0
+			left 0
+			right 0
+		li
+			r-width 152px 106px
+			&, button
+				r-font-size 17.25px 12px
++on-desktop()
+	.content, .footer
+		width width
+		margin 0 auto
+.field
+	field()
+	
+

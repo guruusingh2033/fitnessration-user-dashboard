@@ -1,0 +1,14 @@
+<div class="content">
+	<div class="current-order" ng-if="$ctrl.currentOrders.length">
+		<h3>Current Order</h3>
+		<order ng-repeat="order in $ctrl.currentOrders" order="order"></order>
+	</div>
+	<div class="order-history" ng-if="$ctrl.orderHistory.length">
+		<h3>Order History</h3>
+		<ul>
+			<li ng-repeat="order in $ctrl.orderHistory">
+				<order order="order"></order>
+			</li>
+		</ul>
+	</div>
+</div>

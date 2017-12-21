@@ -1,0 +1,4 @@
+/node_modules/
+/settings.json
+/client/env.js
+/client/app/styles/_env.styl

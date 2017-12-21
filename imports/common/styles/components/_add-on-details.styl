@@ -1,0 +1,72 @@
+@import '../_header'
+add-on-details()
+	display block
+	.pictures
+		.picture
+			background-size contain
+			background-position center
+			background-repeat no-repeat
+			&:not(.current)
+				display none
+
+	font-weight 300
+	+on-desktop()
+		detailed-popup()
+		.pictures
+			ul
+				height 100%
+				.picture
+					height 100%
+		.name, .description, .specifications, .flavors
+			padding-left-right 27px
+		.description, .specifications
+			border-bottom 1px solid #D9D9D9
+		.description, .specifications, .flavors
+			padding-top-bottom 18px
+		.description
+			font-size 18.12px
+		.specifications, .flavors
+			font-size 15.1px
+			label
+				display block
+				font-weight bold
+	+on-mobile()
+		width 291px
+		background $background-b-color
+		font-size 12px
+		.pictures
+			height 291px
+			margin-bottom 18px
+			position relative
+			background white
+			.prev, .next
+				width 10px
+				height 17px
+				position absolute
+				top 0
+				bottom 0
+				font-size 0
+				margin auto 10px
+			.prev
+				background url(image-base + '/left-arrow.border.png')
+			.next
+				background url(image-base + '/right-arrow.border.png')
+				right 0
+			ul
+				height 100%
+			.picture
+				height 100%
+
+		.name, .ingredients, .description
+			display block
+			margin 0 18px 10px
+		.name
+			font-weight bold
+			font-size 14px
+			text-align center
+		.specifications, .flavors
+			border-top 1px solid #DEE0E4
+			padding 15px 18px
+			label
+				font-weight bold
+				display block

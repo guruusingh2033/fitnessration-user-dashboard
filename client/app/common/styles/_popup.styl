@@ -1,0 +1,50 @@
+@import '_header'
+.popup-wrapper
+	position fixed
+	all-sides 0
+	z-index 100
+	overflow auto
+	background-color rgba(0, 0, 0, .2)
+	.popup__content > *
+		margin 0 auto
+	.popup
+		border 1px solid #B7BBC0
+		border-radius 10px
+		position absolute
+		overflow hidden
+		font-size 14.5px
+		background-color white
+		&__close
+			width 11px
+			height 11px
+			display block
+			position absolute
+			top 16px
+			right 14px
+			font-size 0
+			background url(image-base + 'close.border.png')
+			z-index 1
+	&.basic-popup-with-title, &.basic-popup, &.popup
+		display flex
+		justify-content center
+		align-items center
+	&.basic-popup-with-title
+		.popup__title
+			width 100%
+			height-vct 45px
+			display block
+			border-bottom 1px solid #E1E1E1
+			font-weight bold
+			font-size 17.4px
+			text-align center
+			color #6A6A6A
+	&.basic-popup-with-title, &.basic-popup
+		.popup
+			width 290px
+			&__content
+				padding 21px
+	&.popup
+		+on-desktop()
+			.popup__close
+				square 16px
+				background url(image-base + 'thick-close.png')

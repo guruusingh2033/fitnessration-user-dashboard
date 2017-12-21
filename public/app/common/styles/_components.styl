@@ -1,0 +1,297 @@
+// --- meal-property --- //
+meal-property_base()
+	display block
+	r-height-vct 27px 23px
+	r-padding-left 41px 31px
+	background-repeat no-repeat
+	background-position left center
+// --- meal-plan --- //
+meal-plan-icon(color=$secondary-text-color, desktop-size=25, mobile-size=17)
+	background-repeat no-repeat
+	background-position 0px center
+	background-image-colors({'000000':color})
+	r-background-size (desktop-size)px (mobile-size)px
+meal-plan_base(color=$secondary-text-color, desktop-size=25, mobile-size=17)
+	meal-property_base()
+	meal-plan-icon color, desktop-size, mobile-size
+// --- portion --- //
+portion-icon(color=$secondary-text-color, desktop-size=22, mobile-size=14)
+	background-repeat no-repeat
+	background-position 1px center
+	r-background-size (desktop-size)px (mobile-size)px
+	background-image-colors({'000000':color})
+portion_base(color=$secondary-text-color, desktop-size=22, mobile-size=14)
+	meal-property_base()
+	portion-icon color, desktop-size, mobile-size
+// --- bundle-summary --- //
+bundle-summary_base()
+	display block
+	.bundle
+		meal-property_base()
+		display flex
+		font-weight bold
+		background-position 1px center
+		r-background-size 22px 14px
+		.price
+			margin-left auto
+		&.sale .price
+			color #919294
+			text-decoration line-through
+	.promotion
+			meal-property_base()
+			color #EC5623
+			display flex
+			margin-top 0
+			height auto
+			.value
+				margin-left auto
+				white-space nowrap
+	.meal-plan
+		meal-plan_base()
+	.portion
+		portion_base()
+bundle-summary_item()
+	bundle-summary_base()
+	r-padding 19px 30px 13px 20px
+	r-font-size 15.93px 12px
+	.bundle
+		.name, .price
+			r-font-size 18.59px 14px
+	> *:not(:first-child)
+		margin-top 6px
+bundle-summary_item_mobile()
+	bundle-summary_base()
+	padding 13px 20px
+	font-size 12px
+	.name, .price
+		font-size 14px
+	> *:not(:first-child)
+		margin-top 6px
+// bundle-summary, side-summary, desktop
+bundle-summary_side-summary_desktop()
+	bundle-summary_base()
+	display block
+	font-size 18px
+	color #6A6A6A
+	.bundle, .meal-plan, .portion
+		height 18px
+		&:not(:first-child)
+			margin-top 10px
+	.bundle
+		height 27px
+		font-size 20px
+		color #3A3E42
+	.meal-plan
+		height 27px
+	.portion
+		height 27px
+// --- bundle-allergies --- //
+bundle-allergies_base()
+	display flex
+	label
+		width 62px
+	.allergies
+		flex-grow 1
+		li
+			width 100%
+			display flex
+			.amount
+				margin-left auto
+	p.none
+		color #A0A0A0
+		// margin-left auto
+// bundle-allergies, side-summary, desktop
+bundle-allergies_side-summary_desktop()
+	color #6A6A6A
+	font-size 18px
+	label
+		width 77px
+// bundle-allergies, item
+bundle-allergies_item()
+	bundle-allergies_base()
+	r-padding 19px 30px 13px 20px
+	.allergies
+		color #A0A0A0
+
+// -- bundle-meals --- //
+bundle-meals_base()
+	display block
+	.meals
+		li
+			display flex
+			.quantity
+				width 36px
+bundle-meals_side-summary_desktop()
+	font-size 16px
+	color #6A6A6A
+bundle-meals_item()
+	bundle-meals_base()
+	r-padding 19px 30px 13px 20px
+	// +on-mobile()
+	// 	padding 13px 20px
+bundle-meals-in-mobile-summary()
+	li
+		padding 10px 20px
+		.quantity
+			text-align center
+// --- bundle --- //
+bundle_base()
+	display block
+	> *:not(:last-child)
+		border-bottom 1px solid #D9D9D9
+desktop_look_bundle_side-summary()
+	bundle_base()
+	> *
+		margin 15px 0
+		padding-bottom 15px
+		&:last-child
+			padding-bottom 0
+	bundle-summary
+		bundle-summary_side-summary_desktop()
+	bundle-allergies
+		bundle-allergies_side-summary_desktop()
+	bundle-meals
+		bundle-meals_side-summary_desktop()
+	bundle-premium
+		display flex
+		font-size 16px
+		color #6a6a6a
+		label
+			width auto
+		.value
+			margin-left auto
+			color #3a3e42
+// --- order --- //
+order_base()
+	display block
+	.bundles
+		> li:not(:first-child)
+			border-top 1px solid $border-color
+	.order-info
+		.delivery-date-time
+			display flex
+			border-bottom 1px solid $border-color
+			> *
+				flex-grow 1
+				width 50%
+				padding 34px 0 13px
+				text-align center
+				background no-repeat center 9px
+				&:not(:first-child)
+					border-left 1px solid #D9D9D9
+			.date
+				background-image url(image-base + 'date.png')
+			.time
+				background-image url(image-base + 'time.png')
+		.delivery-address
+			border-bottom 1px solid $border-color
+			*
+				display block
+		.extra
+			border-bottom 1px solid $border-color
+			.line
+				display flex
+				&:not(:first-child)
+					margin-top 10px
+				label
+					font-weight bold
+					flex-shrink 0
+					margin-right 20px
+		> .total
+			.line
+				display flex
+				&.promotion
+					label
+						color #EC5623
+				&.total
+					font-weight bold
+				.value
+					margin-left auto
+					text-align right
+order_item_mobile()
+	order_base()
+	.bundles
+		border-bottom 1px solid $border-color
+	bundle-summary
+		bundle-summary_item_mobile()
+	bundle-meals
+		bundle-meals_item()
+	bundle-allergies
+		bundle-allergies_item()
+	.extra, .delivery-address, .order-info > .total
+		padding 13px 20px
+test()
+	display bloc
+order_side-summary_desktop()
+	color #6A6A6A
+	.bundles
+		> li:not(:first-child)
+			margin-top 10px
+			padding-top 10px
+		border-bottom 1px solid $border-color
+		bundle
+			desktop_look_bundle_side-summary()
+	.order-info
+		> *
+			padding-bottom 15px
+			&:not(:first-child)
+				margin-top 15px
+		font-size 18px
+		.delivery-date-time
+			padding-bottom 0
+		.extra
+			margin-top 15px
+			.line
+				&:not(:first-child)
+					margin-top 10px
+				display flex
+				label
+					font-weight bold
+					flex-shrink 0
+					margin-right 20px
+		> .total
+			margin-top 15px
+			.value
+				color #A0A0A0
+			.total
+				font-size 24px
+				.value
+					color #6A6A6A
+
+// --- meal plan list ---  //
+meal-plan-list()
+	layout_item-list()
+	li
+		+on-desktop()
+			padding 138px 20px 0
+			background white no-repeat center top 68px
+			&.selected
+				padding 138px - 9px 11px 0
+				background white no-repeat center top 59px
+		+on-mobile()
+			height 131px
+			color #6A6A6A
+			&:not(:first-child)
+				margin-top 28px						
+		&, &.selected
+			background-image-colors({'000000':$text-color})
+			r-background-size 68px, 35px
+		.name
+			item-list-name()
+			+on-desktop()
+				margin-bottom 10px
+		p
+			item-list-description()
+// -- portion list --- //
+portion-list()
+	layout_item-list()
+	li
+		m-height 78px
+		&, &.selected
+			background-image-colors({'000000':$text-color})
+			r-background-size 60px 29px
+		.name
+			item-list-name()
+			d-margin-bottom 10px
+		.description
+			item-list-description()

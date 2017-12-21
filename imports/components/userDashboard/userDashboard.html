@@ -1,0 +1,23 @@
+<websiteheader></websiteheader>
+<div class="head">
+	<picture style="background-image: url('{{$ctrl.user.profile.picture ? $ctrl.user.profile.picture : '/app/common/images/profile-picture-placeholder.149.png'}}')" class="picture">
+		<span class="edit">
+			Edit
+			<input upload type="file">
+		</span>
+	</picture>
+	<span class="name">{{$ctrl.user.profile.firstName}} {{$ctrl.user.profile.surname}}</span>
+	<div class="preferences">
+		<span class="meal-plan" data-background-image="{{query.mealPlan($ctrl.user.profile.preferences.mealPlan).icon}}">{{query.mealPlan($ctrl.user.profile.preferences.mealPlan).name}}</span>
+		<span class="portion" data-background-image="{{query.portion($ctrl.user.profile.preferences.portion).icon}}">{{query.portion($ctrl.user.profile.preferences.portion).name}}</span>
+	</div>
+	<ul class="nav">
+		<li ng-class="{active:$ctrl.tab == 'profile'}"><a href="/profile">Profile</a></li>
+		<li ng-class="{active:$ctrl.tab == 'orders'}"><a href="/orders">Orders</a></li>
+		<li ng-class="{active:$ctrl.tab == 'preferences'}"><a href="/preferences">Preferences</a></li>
+	</ul>
+	<!-- <login-buttons></login-buttons> -->
+</div>
+<profile ng-if="$ctrl.tab == 'profile'"></profile>
+<orders ng-if="$ctrl.tab == 'orders'"></orders>
+<preferences ng-if="$ctrl.tab == 'preferences'"></preferences>

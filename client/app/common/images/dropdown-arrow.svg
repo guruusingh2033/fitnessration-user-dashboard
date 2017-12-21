@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="51px" viewBox="0 0 50 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>Dropdown long</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.809006211,0 L0.809006211,50.1393812 L46.8021969,50.1393812 C48.4537531,50.1393812 49.7926039,48.7982739 49.7926039,47.1344956 L49.7926039,3.00488563 C49.7926039,1.34533312 48.4570068,0 46.8021969,0 L0.809006211,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48.9835977" height="50.1393812" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Delivery" transform="translate(-716.000000, -956.000000)" stroke="#BBBDBF" stroke-width="2">
+            <g id="Checkout-(Full)" transform="translate(247.000000, 190.000000)">
+                <g id="Time" transform="translate(276.897516, 723.136789)">
+                    <g id="Dropdown-long" transform="translate(192.000000, 43.326134)">
+                        <use id="Rectangle-6" mask="url(#mask-2)" fill="#F1F1F2" xlink:href="#path-1"></use>
+                        <polyline id="Shape" points="17.7965839 21.2383009 25.3890415 28.9987761 33.1039581 21.2383009"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

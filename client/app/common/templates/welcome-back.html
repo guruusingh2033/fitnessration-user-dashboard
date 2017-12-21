@@ -1,0 +1,16 @@
+<div id="welcome-back">
+	<div class="header">
+		<h2>Welcome back</h2>
+		<button class="close">Close</button>
+	</div>
+	<div class="body">
+		<picture class="photo" style="background-image: url('{{profilePicture}}')"></picture>
+		<span class="name">{{firstName}}</span>
+		<span class="meal-plan" data-background-image="{{preferences.mealPlan.icon}}">{{preferences.mealPlan.name}}</span>
+		<span class="portion" data-background-image="{{preferences.portion.icon}}">{{preferences.portion.name}}</span>
+	</div>
+	<div class="footer">
+		<a class="edit-preferences" href="{{userDashboardUrl}}preferences">Edit Your Preferences</a>
+		<a class="next" href="{{orderWizardUrl}}?step=bundle">Select your bundle</a>
+	</div>
+</div>

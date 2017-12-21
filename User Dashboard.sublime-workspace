@@ -1,0 +1,2375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"timeS",
+				"timeSlotsForMonth"
+			],
+			[
+				"avail",
+				"availablilityDatesForOrder"
+			],
+			[
+				"delivery",
+				"deliveryOptions"
+			],
+			[
+				"em",
+				"emailTemplates"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"line",
+				"line-through"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"po",
+				"pos:r	position:relative"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ls",
+				"letter-spacing"
+			],
+			[
+				"order",
+				"order-details"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"textr",
+				"text-transform"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"flex",
+				"flex-grow"
+			],
+			[
+				"contnet",
+				"align-content"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"lig",
+				"lightboxWrapper2"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fi",
+				"first-child"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
+				"compon",
+				"componentGroup"
+			],
+			[
+				"execute",
+				"executeComponentGroup"
+			],
+			[
+				"caregi",
+				"caregiverSteps"
+			],
+			[
+				"onl",
+				"onlinePharmacies"
+			],
+			[
+				"onlinePharm",
+				"onlinePharmacies"
+			],
+			[
+				"initPh",
+				"initPharmacyMap"
+			],
+			[
+				"careG",
+				"caregiverRequest"
+			],
+			[
+				"req",
+				"requestCaregiverStatus"
+			],
+			[
+				"caregiverRE",
+				"caregiverRequestId"
+			],
+			[
+				"caregiver",
+				"caregiverRequests"
+			],
+			[
+				"caregive",
+				"caregiverRequest"
+			],
+			[
+				"care",
+				"caregiverUserId"
+			],
+			[
+				"signn",
+				"signupInfo"
+			],
+			[
+				"logIn",
+				"logInLightbox"
+			],
+			[
+				"data",
+				"databaseSchema"
+			],
+			[
+				"resourceSUb",
+				"resourceSubtreeOptions"
+			],
+			[
+				"excl",
+				"excludeReferences"
+			],
+			[
+				"ignore",
+				"ignoreReferences"
+			],
+			[
+				"exc",
+				"excludeReferences"
+			],
+			[
+				"curr",
+				"currentPaymentMethod"
+			],
+			[
+				"payem",
+				"paymentMethod"
+			],
+			[
+				"refer",
+				"references"
+			],
+			[
+				"presc",
+				"prescription"
+			],
+			[
+				"Medi",
+				"MedicineLogEntryDose"
+			],
+			[
+				"client",
+				"clientDocument"
+			],
+			[
+				"qs",
+				"qs1Cache"
+			],
+			[
+				"car",
+				"caringFor"
+			],
+			[
+				"resou",
+				"resourceDocument"
+			],
+			[
+				"subsc",
+				"subscribers"
+			],
+			[
+				"addSub",
+				"addSubscriberToResource"
+			],
+			[
+				"schea",
+				"schemaVersion"
+			],
+			[
+				"customer_v",
+				"customer_vault_id"
+			],
+			[
+				"date_Def",
+				"date_default_timezone_set"
+			],
+			[
+				"clietn",
+				"clientDocument"
+			],
+			[
+				"databa",
+				"databaseSchema"
+			],
+			[
+				"route",
+				"routeSchema"
+			],
+			[
+				"da",
+				"databaseSchema"
+			],
+			[
+				"schema",
+				"schemaVersion"
+			],
+			[
+				"sch",
+				"schemaVersion"
+			],
+			[
+				"dbms",
+				"dbmsServer"
+			],
+			[
+				"dire",
+				"directions"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"strrep",
+				"str_repeat"
+			],
+			[
+				"Access-Control",
+				"Access-Control-Allow-Origin"
+			],
+			[
+				"pres",
+				"prescriptions"
+			],
+			[
+				"pha",
+				"pharmacies"
+			],
+			[
+				"cust",
+				"customerAndCaregiver"
+			],
+			[
+				"onlinePa",
+				"onlinePharmacies"
+			],
+			[
+				"online",
+				"onlinePharmacyResults"
+			],
+			[
+				"onlinePhar",
+				"onlinePharmacy"
+			],
+			[
+				"onlinePhara",
+				"onlinePharmacyResults"
+			],
+			[
+				"dos",
+				"doseConfirmationWrapper"
+			],
+			[
+				"AT",
+				"ATORVOSTATIN"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"linke",
+				"linkActiveColor"
+			],
+			[
+				"linkC",
+				"linkHoverColor"
+			],
+			[
+				"fon-",
+				"font-weight"
+			],
+			[
+				"mysql_",
+				"mysql_connect"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/main.test.js",
+			"settings":
+			{
+				"buffer_size": 2202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/main.js",
+			"settings":
+			{
+				"buffer_size": 1997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/main.js",
+			"settings":
+			{
+				"buffer_size": 8441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/locationSurcharges.ts",
+			"settings":
+			{
+				"buffer_size": 141,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/ingredients.ts",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/mealStock.ts",
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/fulfillmentSettings.js",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/server/main.ts",
+			"settings":
+			{
+				"buffer_size": 14164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/orders.d.ts",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/portions.ts",
+			"settings":
+			{
+				"buffer_size": 228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/blocks.d.ts",
+			"settings":
+			{
+				"buffer_size": 83,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/bundleTypes.d.ts",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/meals.d.ts",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/mealPlans.d.ts",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "typings.json",
+			"settings":
+			{
+				"buffer_size": 173,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tsconfig.json.off",
+			"settings":
+			{
+				"buffer_size": 223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "User Dashboard.sublime-project",
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/timeSlots.d.ts",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/promotions.d.ts",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/api/fulfillmentSettings.d.ts",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "imports/common/scripts/order.ts",
+			"settings":
+			{
+				"buffer_size": 4135,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"show error",
+				"TypeScript: Show Error List"
+			],
+			[
+				"typescri",
+				"TypeScript: Show Error List"
+			],
+			[
+				"typescript errr",
+				"TypeScript: Show Error List"
+			],
+			[
+				"typescho",
+				"TypeScript: Show Error List"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"close ",
+				"File: Close All"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Wrap Plus: Wrap Lines"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 478.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/api"
+	],
+	"file_history":
+	[
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/server/main.ts",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/api/locationSurcharges.d.ts",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/server/main.js",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/api/mealStock.api",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/tests/server.js",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/.meteor/local/build/programs/web.browser/app/app/common/scripts/order.ts",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/.meteor/local/build/programs/server/app/app.js",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/components/orders/orders.html",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/common/scripts/order.ts",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/common/styles/_website-header.styl",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/client/app/styles/components/profile.styl",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/settings.json",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/client/main.js",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/client/showConfirmReorderPopup.js",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/client/main.html",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/components/userDashboard/userDashboard.js",
+		"/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/components/welcomeBack/welcomeBack.js",
+		"/Users/jonathancook/Desktop/Clients/client journal/fitnessration/pws",
+		"/Users/jonathancook/Desktop/Clients/client journal/fitnessration/browser issues",
+		"/Users/jonathancook/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jonathancook/Desktop/Clients/client journal/fitnessration/questions",
+		"/Users/jonathancook/Desktop/Clients/client journal/silver earth/asdf",
+		"/Users/jonathancook/Desktop/Clients/client journal/silver earth/issues",
+		"/Users/jonathancook/Desktop/Clients/client journal/divvyDOSE/brandon",
+		"/Users/jonathancook/Desktop/Clients/client journal/fitnessration",
+		"/Users/jonathancook/Desktop/Clients/client journal/shoptwigs/parts/login",
+		"/Users/jonathancook/Desktop/Clients/client journal/fitnessration/todo",
+		"/Users/jonathancook/Desktop/Clients/client journal/silver earth/ftp",
+		"/Users/jonathancook/Desktop/Clients/client journal/shoptwigs/todo",
+		"/Users/jonathancook/Desktop/Clients/client journal/shoptwigs/parts",
+		"/web/shoptwigs/src/css/account/_layout.scss",
+		"/web/shoptwigs/src/account/wishlist.kit",
+		"/web/shoptwigs/src/css/account/wishlist.scss",
+		"/web/shoptwigs/src/css/checkout/paypal2.scss",
+		"/web/shoptwigs/src/css/products.scss",
+		"/web/shoptwigs/src/css/layout.scss",
+		"/web/shoptwigs/src/css/account/reset-password.scss",
+		"/web/shoptwigs/src/account/orders-past.kit",
+		"/web/shoptwigs/src/account/product-review.kit",
+		"/web/shoptwigs/src/css/account/product-review.scss",
+		"/web/shoptwigs/src/account/reset-password.kit",
+		"/web/shoptwigs/src/css/account/sign-in.scss",
+		"/web/shoptwigs/src/account/sign-in.kit",
+		"/web/shoptwigs/src/css/account/orders-past.scss",
+		"/web/shoptwigs/src/account/details.kit",
+		"/web/shoptwigs/src/account/details-password.kit",
+		"/web/shoptwigs/src/account/address-update.kit",
+		"/web/shoptwigs/src/css/account/address-update.scss",
+		"/web/shoptwigs/src/css/account/address-add.scss",
+		"/web/shoptwigs/src/css/account/details-password.scss",
+		"/web/shoptwigs/src/css/account/details.scss",
+		"/web/shoptwigs/src/account/_bottom.kit",
+		"/web/shoptwigs/src/account/_top.kit",
+		"/web/shoptwigs/src/css/checkout/checkout.scss",
+		"/web/shoptwigs/src/css/account/address-saved.scss",
+		"/web/shoptwigs/src/account/address-add.kit",
+		"/web/shoptwigs/src/account/address-saved.kit",
+		"/web/shoptwigs/src/checkout/paypal2.kit",
+		"/web/shoptwigs/src/includes/_top.kit",
+		"/web/shoptwigs/src/checkout/paypal3.kit",
+		"/web/shoptwigs/src/checkout/thanks.kit",
+		"/web/shoptwigs/src/css/checkout/paypal3.scss",
+		"/web/shoptwigs/src/checkout/shoptwigs.sublime-project",
+		"/web/shoptwigs/.sass-cache/73b767283675b39de4c45852eab88f04994098fe/layout.scssc",
+		"/web/shoptwigs/src/css/checkout/checkout3.scss",
+		"/web/shoptwigs/src/css/checkout/paypal1.scss",
+		"/web/shoptwigs/src/css/checkout/thanks.scss",
+		"/web/shoptwigs/src/checkout/order-review.kit",
+		"/web/shoptwigs/src/checkout/paypal1.kit",
+		"/web/shoptwigs/src/css/checkout/order-review.scss",
+		"/web/shoptwigs/src/checkout/checkout4.kit",
+		"/web/shoptwigs/src/css/checkout.scss",
+		"/web/shoptwigs/src/checkout/checkout3.kit",
+		"/web/shoptwigs/src/css/checkout/_order-review.scss",
+		"/web/shoptwigs/src/css/checkout/_order-details.scss",
+		"/web/shoptwigs/src/css/checkout/_order-summary.scss",
+		"/web/shoptwigs/css/index.css.map",
+		"/web/shoptwigs/src/checkout/_order-review.kit",
+		"/web/shoptwigs/src/checkout/_order-details.kit",
+		"/web/shoptwigs/src/checkout/_order-summary.kit",
+		"/web/shoptwigs/src/css/checkout/signin.scss",
+		"/web/shoptwigs/src/includes/_checkout-bottom.kit",
+		"/web/shoptwigs/src/checkout/signin.kit",
+		"/web/shoptwigs/src/checkout/checkout1.kit",
+		"/web/shoptwigs/src/checkout/checkout2.kit",
+		"/web/shoptwigs/src/includes/_checkout-top.kit",
+		"/web/shoptwigs/src/css/product.scss",
+		"/web/shoptwigs/css/checkout.css",
+		"/web/shoptwigs/css/layout.css",
+		"/web/shoptwigs/src/css/includes/_header.scss",
+		"/web/shoptwigs/src/css/checkout3.scss",
+		"/web/shoptwigs/src/checkout4.kit",
+		"/web/shoptwigs/src/checkout3.kit",
+		"/web/shoptwigs/src/checkout2.kit",
+		"/web/shoptwigs/src/checkout1.kit",
+		"/web/shoptwigs/src/products.kit",
+		"/web/shoptwigs/src/product.kit",
+		"/web/shoptwigs/src/includes/_bottom.kit",
+		"/web/shoptwigs/src/includes/_middle.kit",
+		"/web/shoptwigs/bower.json",
+		"/web/shoptwigs/src/index.kit",
+		"/web/shoptwigs/src/css/index.scss",
+		"/web/shoptwigs/src/css/includes/product.scss",
+		"/web/shoptwigs/index.html",
+		"/web/shoptwigs/src/_includes/_top.kit",
+		"/web/shoptwigs/css/main.css",
+		"/Users/jonathancook/Desktop/journal/life/exercises",
+		"/Users/jonathancook/Desktop/journal/dev/server",
+		"/Users/jonathancook/Desktop/journal/diary/2016-04-20",
+		"/Users/jonathancook/Desktop/journal/clients/asdf",
+		"/Users/jonathancook/Desktop/journal/projects/divvyDOSE/outstanding items",
+		"/Users/jonathancook/Desktop/journal/clients/beeling",
+		"/Users/jonathancook/Desktop/journal/clients/divvyDOSE/report",
+		"/Users/jonathancook/Library/Caches/Cleanup At Startup/Transmit/4D528AE5-5645-48E9-9190-8D05692AF927/Confirmation.ascx",
+		"/Users/jonathancook/Desktop/journal/clients/silver earth/shop twigs/estimate",
+		"/Users/jonathancook/Desktop/journal/clients/silver earth/asdf",
+		"/Users/jonathancook/Desktop/journal/passwords",
+		"/Users/jonathancook/Desktop/journal/projects/life",
+		"/Users/jonathancook/Desktop/journal/biases",
+		"/Users/jonathancook/Desktop/journal/clients/yom inc/projects/stripe integration",
+		"/Users/jonathancook/Desktop/journal/colorblind",
+		"/Users/jonathancook/Desktop/journal/clients/silver earth/ftp",
+		"/Users/jonathancook/Desktop/journal/clients/divvyDOSE/divvyDOSE",
+		"/Users/jonathancook/Desktop/journal/clients/food ration/notes",
+		"/Users/jonathancook/Desktop/journal/clients/food ration/call preparation",
+		"/Users/jonathancook/Desktop/journal/clients/yom inc/notes",
+		"/Users/jonathancook/Desktop/journal/clients/silver earth/shop twig/estimate",
+		"/Users/jonathancook/Desktop/journal/dev/firefox addons"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.js,*.ts,-.meteor/",
+			"*.js,*.ts",
+			"*.js",
+			"*.css",
+			"*.scss",
+			"*.kit",
+			"*.scss",
+			"*.kit",
+			"*.scss",
+			"*.kit",
+			"*.kt",
+			"*.scss",
+			"",
+			"*.coffee",
+			"*.js",
+			"*.coffee",
+			"*.php",
+			"*.kit",
+			"*.php",
+			"*.coffee",
+			"",
+			"*.styl",
+			".styl",
+			"&.styl",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"meteor/mongo",
+			"Mongo",
+			"portions.js",
+			"tx",
+			"Promotions",
+			"lockFile",
+			"-",
+			"LocationSurcharges",
+			"MealStock",
+			"LocationSurcharges",
+			"Location",
+			"Locatoin",
+			"Locatoi",
+			"orderLo",
+			"Errors",
+			"imports",
+			"Orders",
+			"Surveys",
+			"Promotions",
+			"Blocks",
+			"Portions",
+			"Ingredients",
+			"TimeSlots",
+			"MealPlans",
+			"BundleTypes",
+			"Meals",
+			"TimeSlots",
+			"createOrder",
+			"timeSlotsForMonth",
+			"timeSlotsForDates",
+			"validatePromotion",
+			"_",
+			"amPm",
+			"resolveOrder",
+			"lockFile.unlockSync('orders.lock');",
+			"timeSlotsForDates",
+			"DateSet",
+			"availablilityDatesForOrder",
+			"orderApi",
+			"nextOrder",
+			"nextOrer",
+			"checkOrder",
+			"FulfillmentSettings",
+			"amPm",
+			"Surchage",
+			"locationSurchage",
+			"LocationSurchage",
+			"locationSurchage",
+			"orderLocationSurchage",
+			"surchage",
+			"entries",
+			"toLowerCase",
+			"state",
+			"\n",
+			"uuser",
+			"'no-reply@fitnessration.com.sg'",
+			"orderDeliveryFee",
+			"amPm",
+			"ObjectId(\"579a3a7bd4c655ae8c624a08\")",
+			"console.log",
+			"left-arrow",
+			"left-arrow.accent-foreground",
+			"left-arrow.accent-color",
+			"RelatedProducts",
+			"RelatedP",
+			"\"#\" class=\"add-to-bag\"",
+			"Qty",
+			"didot",
+			".breadcrumbs",
+			"textarea",
+			"- ",
+			"p",
+			"in process",
+			" / ",
+			"		h2 {\n			margin-bottom: 36px;\n		}\n",
+			" checkbox",
+			".field",
+			"label",
+			"order number",
+			"h2",
+			"checkout3",
+			"_order-review",
+			"_order-summary",
+			"class=\"order-summary\"",
+			"input[type=\"submit\"]",
+			"input[type=\"text\"]",
+			"2,000.00",
+			"error.set",
+			"includes",
+			"paypal",
+			"Paypal",
+			"span",
+			"breadcrumbs",
+			"breadcrums",
+			"10px",
+			"tfoot",
+			"asdf",
+			"facebook",
+			"u",
+			"span",
+			"<span",
+			"p>",
+			"instagram",
+			"ul",
+			" col-md-4",
+			"0 1px",
+			"setBaseUrl",
+			"hallie",
+			"1",
+			"hour",
+			" - ",
+			".png",
+			".psd",
+			".DS_Store",
+			"./",
+			"Janet",
+			"Janie",
+			"sync",
+			"synch",
+			"synchon",
+			"synchony",
+			"pdf",
+			"RELEASE\n",
+			"jonnycook.com",
+			"composer",
+			"passwords",
+			"routing",
+			"46"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"$.get base + 'app/templates",
+			"url(\"http://fast.fonts.com"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 15,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/main.test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								683,
+								683
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "bc0e2c19",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "a9f10317",
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								746,
+								746
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "23ad48a8",
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "imports/api/locationSurcharges.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "f588df8d",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "imports/api/ingredients.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "3b04cb82",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "imports/api/mealStock.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "9b8f57c9",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "imports/api/fulfillmentSettings.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "036c5e68",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "imports/server/main.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "8dc85d45",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2860.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "imports/api/orders.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								83
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "1b685273",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "imports/api/portions.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "cf5565a0",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "imports/api/blocks.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "5d9797fb",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "imports/api/bundleTypes.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "eca745b1",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "imports/api/meals.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "2897bafb",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "imports/api/mealPlans.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "8c4622ec",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "typings.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "json",
+							"buffer_scroll_name": "d571dced",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "tsconfig.json.off",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "48f10493",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "User Dashboard.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "json",
+							"buffer_scroll_name": "7ef26423",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "imports/api/timeSlots.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "276c7df2",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "imports/api/promotions.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "a159d017",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "imports/api/fulfillmentSettings.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "b80a09fc",
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"default_dir": "/Users/jonathancook/Desktop/Clients/Fitness Ration/user-dashboard/imports/api",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "imports/common/scripts/order.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2472,
+								2472
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "typescript",
+							"buffer_scroll_name": "def76de4",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 380.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "User Dashboard.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.js",
+				"client/main.js"
+			],
+			[
+				"layout",
+				"src/css/layout.scss"
+			],
+			[
+				"layou",
+				"src/css/layout.scss"
+			],
+			[
+				"la",
+				".sass-cache/73b767283675b39de4c45852eab88f04994098fe/layout.scssc"
+			],
+			[
+				"checkout-top",
+				"src/includes/_checkout-top.kit"
+			],
+			[
+				"order-view",
+				"src/checkout/order-review.kit"
+			],
+			[
+				"order-v",
+				"src/css/checkout/order-review.scss"
+			],
+			[
+				"head",
+				"src/css/includes/_header.scss"
+			],
+			[
+				"pass",
+				"passwords"
+			],
+			[
+				"git",
+				"git"
+			],
+			[
+				"divvy",
+				"clients/divvyDOSE/divvyDOSE"
+			],
+			[
+				"todo",
+				"projects/divvyDOSE/todo"
+			],
+			[
+				"lif",
+				"projects/life"
+			],
+			[
+				"life",
+				"projects/life"
+			],
+			[
+				"divv",
+				"projects/divvyDOSE"
+			],
+			[
+				"signup",
+				"signup/includes/signup.php"
+			],
+			[
+				"main",
+				"signup/src/main.coffee"
+			],
+			[
+				"sig",
+				"signup.php"
+			],
+			[
+				"dataman",
+				"signup/src/xyzp/DataManager.coffee"
+			],
+			[
+				"top",
+				"src/includes/_top.kit"
+			],
+			[
+				"helath",
+				"src/healthcare-providers.kit"
+			],
+			[
+				"inte",
+				"src/styles/_internal.styl"
+			],
+			[
+				"lay",
+				"src/styles/_layout.styl"
+			],
+			[
+				"int",
+				"src/styles/_internal.styl"
+			],
+			[
+				"inter",
+				"src/styles/_internal.styl"
+			],
+			[
+				"conta",
+				"src/styles/contactUs.styl"
+			],
+			[
+				"_requ",
+				"src/includes/_requestDivvyPackAndInfoForm.kit"
+			],
+			[
+				"contac",
+				"src/styles/contactUs.styl"
+			],
+			[
+				"care",
+				"src/styles/careers.styl"
+			],
+			[
+				"compas",
+				"src/compass.kit"
+			],
+			[
+				"healt",
+				"src/healthcare-providers.kit"
+			],
+			[
+				"create",
+				"signup/createAccount.php"
+			],
+			[
+				"zen",
+				"includes/shared/zenDesk.php"
+			],
+			[
+				"m",
+				"signup/src/main.coffee"
+			],
+			[
+				"sign",
+				"signup.php"
+			],
+			[
+				"signp",
+				"signup/includes/signup.php"
+			],
+			[
+				"include/sign",
+				"signup/includes/signup.php"
+			],
+			[
+				"human",
+				"signup/includes/humanReadable.php"
+			],
+			[
+				"includes/signup",
+				"signup/includes/signup.php"
+			],
+			[
+				"setup",
+				"signup/setupAccount.php"
+			],
+			[
+				"signup.php",
+				"signup.php"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"ui.coff",
+				"scripts/ui.coffee"
+			],
+			[
+				"check",
+				"checkAvailability.php"
+			],
+			[
+				"ava",
+				"src/styles/availability.styl"
+			],
+			[
+				"howit",
+				"src/how-it-works.kit"
+			],
+			[
+				"how",
+				"src/styles/howItWorks.styl"
+			],
+			[
+				"signip",
+				"signup/includes/signup.php"
+			],
+			[
+				"main.",
+				"signup/src/main.coffee"
+			],
+			[
+				"send",
+				"includes/shared/sendEmail.php"
+			],
+			[
+				"",
+				"includes/header.php"
+			],
+			[
+				"caregi",
+				"src/caregivers.kit"
+			],
+			[
+				"index",
+				"src/index.kit"
+			],
+			[
+				"home",
+				"src/styles/home.styl"
+			],
+			[
+				"inde",
+				"src/index.kit"
+			],
+			[
+				"home.s",
+				"src/styles/home.styl"
+			],
+			[
+				"hwo",
+				"src/how-it-works.kit"
+			],
+			[
+				"mid",
+				"src/includes/_middle.kit"
+			],
+			[
+				"avai",
+				"src/styles/availability.styl"
+			],
+			[
+				"t",
+				"src/includes/_top.kit"
+			],
+			[
+				"howi",
+				"src/how-it-works.kit"
+			],
+			[
+				"presss",
+				"src/styles/press.styl"
+			],
+			[
+				"press",
+				"src/press.kit"
+			],
+			[
+				"footer",
+				"src/includes/_footer.kit"
+			],
+			[
+				"help",
+				"src/help.kit"
+			],
+			[
+				"hwoit",
+				"src/how-it-works.kit"
+			],
+			[
+				"pres",
+				"src/press.kit"
+			],
+			[
+				"contact",
+				"src/contact-us.kit"
+			],
+			[
+				"cont",
+				"src/styles/contactUs.styl"
+			],
+			[
+				"career",
+				"src/careers.kit"
+			],
+			[
+				"med",
+				"core/databaseEngines/MedicationsDatabaseEngine.class.php"
+			],
+			[
+				"medi",
+				"core/databaseEngines/MedicationsDatabaseEngine.class.php"
+			],
+			[
+				"mongo",
+				"core/databaseEngines/MongoDbDatabaseEngine.class.php"
+			],
+			[
+				"div",
+				"core/databases/divvydose.php"
+			],
+			[
+				"addres",
+				"core/databaseEngines/AddressesDatabaseEngine.class.php"
+			],
+			[
+				"sche",
+				"core/includes/schema.php"
+			],
+			[
+				"term",
+				"core/terminateClient.php"
+			],
+			[
+				"serv",
+				"router/src/server.coffee"
+			],
+			[
+				"mai",
+				"core/main.php"
+			],
+			[
+				"paym",
+				"core/databaseEngines/PaymentMethodsDatabaseEngine.class.php"
+			],
+			[
+				"pay",
+				"core/databaseEngines/PaymentMethodsDatabaseEngine.class.php"
+			],
+			[
+				"reg",
+				"core/registerClient.php"
+			],
+			[
+				"payment",
+				"core/databaseEngines/PaymentMethodsDatabaseEngine.class.php"
+			],
+			[
+				"mian",
+				"core/includes/main.php"
+			],
+			[
+				"regi",
+				"core/registerClient.php"
+			],
+			[
+				"addre",
+				"core/databaseEngines/AddressesDatabaseEngine.class.php"
+			],
+			[
+				"set",
+				"core/setClientParam.php"
+			],
+			[
+				"client",
+				"core/clientReceivedUpdate.php"
+			],
+			[
+				"clientcon",
+				"core/clientConnected.php"
+			],
+			[
+				"server.cof",
+				"router/src/server.coffee"
+			],
+			[
+				"router",
+				"router/src/server.coffee"
+			],
+			[
+				"schema",
+				"core/includes/schema.php"
+			],
+			[
+				"d",
+				"core/databases/divvydose.php"
+			],
+			[
+				"router/",
+				"router/src/server.coffee"
+			],
+			[
+				"router/scr",
+				"router/src/server.coffee"
+			],
+			[
+				"conf",
+				"src/app/config.coffee"
+			],
+			[
+				"config",
+				"src/app/config.coffee"
+			],
+			[
+				"init",
+				"src/app/init.coffee"
+			],
+			[
+				"webso",
+				"src/xyzp/WebSocketTransport.coffee"
+			],
+			[
+				"mobil",
+				"src/styles/app/mobile.styl"
+			],
+			[
+				"ship",
+				"app/templates/pages/shipping.html"
+			],
+			[
+				"main.ts",
+				"src/styles/app/main.styl"
+			],
+			[
+				"sess",
+				"session.php"
+			],
+			[
+				"uihe",
+				"src/app/UIHelpers.coffee"
+			],
+			[
+				"mainst",
+				"src/styles/app/main.styl"
+			],
+			[
+				"con",
+				"src/styles/app/contact.styl"
+			],
+			[
+				"ui",
+				"src/xyzp/UILayer.coffee"
+			],
+			[
+				"medic",
+				"src/app/pages/medications.coffee"
+			],
+			[
+				"ws",
+				"src/xyzp/WebSocketTransport.coffee"
+			],
+			[
+				"webs",
+				"src/xyzp/WebSocketTransport.coffee"
+			],
+			[
+				"confi",
+				"src/app/config.coffee"
+			],
+			[
+				"hasone",
+				"src/xyzp/HasOneRelationship.coffee"
+			],
+			[
+				"modelprop",
+				"src/xyzp/ModelProperty.coffee"
+			],
+			[
+				"modelin",
+				"src/xyzp/ModelInstance.coffee"
+			],
+			[
+				"modela",
+				"src/xyzp/ModelAttribute.coffee"
+			],
+			[
+				"hasm",
+				"src/xyzp/HasManyRelationship.coffee"
+			],
+			[
+				"model",
+				"src/xyzp/ModelInstance.coffee"
+			],
+			[
+				"styles",
+				"styles.styl"
+			],
+			[
+				"index.",
+				"index.php"
+			],
+			[
+				"layer",
+				"src/xyzp/UILayer.coffee"
+			],
+			[
+				"main.c",
+				"src/main.coffee"
+			],
+			[
+				"mysl",
+				"core/databaseEngines/MysqlDatabaseEngine.class.php"
+			],
+			[
+				"xa",
+				"src/xyzp/XArray.coffee"
+			],
+			[
+				"style",
+				"styles.styl"
+			],
+			[
+				"cal",
+				"src/styles/app/calendar.styl"
+			],
+			[
+				"cale",
+				"src/styles/app/calendar.styl"
+			],
+			[
+				"dash",
+				"src/styles/app/dashboard.styl"
+			],
+			[
+				"account.html",
+				"app/templates/pages/account.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/web/divvydose-site/divvyDOSE Site.sublime-project"
+			],
+			[
+				"asd",
+				"/web/divvydose-site/asdf.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

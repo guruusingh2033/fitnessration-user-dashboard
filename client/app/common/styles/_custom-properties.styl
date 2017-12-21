@@ -1,0 +1,30 @@
+square(size)
+	width size
+	height size
+size(width, height)
+	width width
+	height height
+height-vct(height, adjusted=true)
+	height height
+	vertically-centered-text adjusted
+padding-left-right(v1, v2=null)
+	padding-left v1
+	padding-right v2 == null ? v1 : v2
+margin-left-right(v1, v2=null)
+	margin-left v1
+	margin-right v2 == null ? v1 : v2
+margin-top-bottom(v1, v2=null)
+	margin-top v1
+	margin-bottom v2 == null ? v1 : v2
+padding-top-bottom(v1, v2=null)
+	padding-top v1
+	padding-bottom v2 == null ? v1 : v2
+all-sides(v)
+	top v
+	right v
+	bottom v
+	left v
+left-from-imaginary-container(width, left)
+	left 'calc(50% + %s)' % (-(width/2) + left)
+right-from-imaginary-container(width, right)
+	right 'calc(50% + %s)' % (-(width/2) + right)

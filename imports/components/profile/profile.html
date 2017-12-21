@@ -1,0 +1,59 @@
+<div class="content">
+	<div class="section name" ng-if="$ctrl.editing">
+		<div class="field">
+			<label>First Name</label>
+			<input ng-model="$ctrl.fields.firstName" type="text">
+		</div>
+		<div class="field">
+			<label>Surname</label>
+			<input ng-model="$ctrl.fields.surname" type="text">
+		</div>
+	</div>
+	<div class="section phone-number">
+		<span class="value" ng-if="!$ctrl.editing">{{$ctrl.user.profile.phoneNumber}}</span>
+		<div class="field" ng-if="$ctrl.editing">
+			<input type="text" ng-model="$ctrl.fields.phoneNumber" placeholder="8123 8123">
+		</div>
+	</div>
+	<div class="section email">
+		<span class="value" ng-if="!$ctrl.editing">{{$ctrl.user.username}}</span>
+		<div class="field" ng-if="$ctrl.editing">
+			<input type="text" ng-model="$ctrl.fields.email" placeholder="sam.a@xyz.abc">
+		</div>
+	</div>
+	<div class="section delivery-address">
+		<label>Delivery Address</label>
+		<div class="value" ng-if="!$ctrl.editing">
+			<span class="address">{{$ctrl.user.profile.deliveryAddresses[$ctrl.user.profile.selectedDeliveryAddress].address}}</span>
+			<span class="postal-code">{{$ctrl.user.profile.deliveryAddresses[$ctrl.user.profile.selectedDeliveryAddress].postalCode}}</span>
+		</div>
+		<div class="addresses" ng-if="$ctrl.editing">
+			<ul>
+				<li ng-repeat="deliveryAddress in $ctrl.user.profile.deliveryAddresses" ng-class="{selected:$index == $ctrl.selectedDeliveryAddress}" ng-click="$ctrl.selectedDeliveryAddress = $index">
+					<input type="radio" name="selectedDeliveryAddress" ng-model="$ctrl.selectedDeliveryAddress" value="{{$index}}">
+					<span class="address">{{deliveryAddress.address}}</span>
+					<span class="postal-code">{{deliveryAddress.postalCode}}</span>
+					<button class="delete" ng-click="$ctrl.delete(deliveryAddress); $event.stopPropagation()">Delete</button>
+				</li>
+			</ul>
+			<div class="add-wrapper"><button class="add" ng-click="$ctrl.addDeliveryAddress()">Add delivery address</button></div>
+		</div>
+	</div>
+<!-- 	<div class="section payment-method">
+		<label>Preferred Payment Method</label>
+		<span class="type">Mastercard</span>
+		<span class="number">asdfasd</span>
+	</div>
+ -->	<div class="section partner-membership">
+		<label>Partner Membership</label>
+		<span class="value">{{$ctrl.user.profile.partnerMembership}}</span>
+		<div class="add-partner-code" ng-if="$ctrl.editing">
+			<button class="add" ng-click="$ctrl.addPartnerCode()">Add partner code</button>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<button class="change-password" ng-if="!$ctrl.editing" ng-click="$ctrl.changePassword()">Change Password</button>
+	<button class="edit edit-profile" ng-click="$ctrl.edit()" ng-if="!$ctrl.editing">Edit Your Profile</button>
+	<button class="edit save" ng-click="$ctrl.save()" ng-if="$ctrl.editing">Save</button>
+</div>

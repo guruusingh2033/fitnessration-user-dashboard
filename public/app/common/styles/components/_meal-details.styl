@@ -1,0 +1,157 @@
+@import '../_header'
+meal-details()
+	display block
+	.pictures
+		.picture
+			background-size contain
+			background-position center
+			background-repeat no-repeat
+			&:not(.current)
+				display none
+	.facts
+		display flex
+		margin-top 10px
+		border-right 1px solid #D9D9D9
+		align-item stretch
+		.group
+			padding 15px 0
+			flex 0 0 auto
+			&:first-child
+				border-right 1px solid #D9D9D9
+				width 193px
+			&:nth-child(2)
+				flex-grow 1
+				.fact
+					label
+						width 55px
+					.value
+						width
+			.fact
+				display flex
+				justify-content center
+				label
+					margin-right 10px
+					text-align right
+				.value
+					font-weight 500
+					width 41px
+	.contains
+		picture
+			background-repeat no-repeat
+			background-position center
+			background-color #DEE0E4
+			border-radius 100%
+			r-background-image-colors({'000000':#6A6A6A}, {'000000': #919294})
+			r-background-size 20px 20px, 18px 18px
+	+on-desktop()
+		detailed-popup()
+		.pictures
+			ul
+				height 100%
+				.picture
+					height 100%
+		.name, .sides, .description
+			padding-left-right 27px
+		.name
+			margin-bottom 11px
+		.sides
+			font-weight normal
+			margin-bottom 13px
+		.sides, .description
+			font-size 18.07px
+		.facts, .contains
+			height 132px
+			border-top 1px solid #D9D9D9
+			position absolute
+			bottom 0
+		.facts
+			width 328px
+			left 458px
+		.contains
+			left 458px + 328px
+			// right 0
+			width 155px
+		.contains
+			padding 15px
+			.icons
+				position absolute
+				height 35px
+				bottom 15px
+				left 15px
+				margin auto
+				display flex
+				picture
+					square 35px
+					&:not(:first-child)
+						margin-left 12px
+		.facts
+			.group
+				&:first-child
+					width 193px
+					.fact label
+						width 105px
+				&:nth-child(2) .fact label
+					width 88px
+	+on-mobile()
+		width 291px
+		background $background-b-color
+		font-size 12px
+		font-weight 300
+		.pictures
+			height 291px
+			margin-bottom 18px
+			position relative
+			background white
+			.prev, .next
+				width 10px
+				height 17px
+				position absolute
+				top 0
+				bottom 0
+				font-size 0
+				margin auto 10px
+			.prev
+				background url(/app/common/images/left-arrow.border.png)
+			.next
+				background url(/app/common/images/right-arrow.border.png)
+				right 0
+			ul
+				height 100%
+			.picture
+				height 100%
+		.name, .sides, .description
+			display block
+			margin 0 18px 10px
+		.name
+			font-weight bold
+			font-size 14px
+		.facts
+			border-top 1px solid #D9D9D9
+			border-bottom 1px solid #D9D9D9
+			.group
+				&:first-child
+					width 160px
+					.fact label
+						width 87px
+				&:nth-child(2) .fact label
+					width 55px
+		.contains
+			padding 12px 180px 12px 12px
+			position relative
+			.icons
+				height 27px
+				position absolute
+				top 0
+				right 10px
+				bottom 0
+				margin auto
+				display flex
+				picture
+					width 27px
+					height 27px
+					
+					&:not(:first-child)
+						margin-left 3px
+	&.no-secondary-image
+		.next, .prev
+			display none

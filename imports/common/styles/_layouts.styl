@@ -1,0 +1,82 @@
+desktop_layout_side-column(content, column)
+	+on-desktop()
+		{content}
+			width 617px
+			float left
+			clear left
+			padding-bottom 170px
+		{column}
+			float right
+			width 290px
+			padding-bottom 170px
+desktop_layout_single-button-footer(button)
+	+on-desktop()
+		{button}
+			dark-footer-item()
+			round-footer-item()
+			width 623px
+			margin 0 auto 10px
+desktop_layout_double-button-footer(first-button, second-button)
+	+on-desktop()
+		display flex
+		justify-content center
+		padding-bottom 10px
+		{first-button}
+			dark-footer-item()
+			round-footer-item()
+			background-color $accent-b-background-color
+			width 465px	
+		{second-button}
+			round-footer-item()
+			dark-footer-item()
+			width 465px
+			margin 0 0 0 10px
+detailed-popup()
+	display block
+	size 941px 458px
+	padding-left 458px
+	position relative
+	color #6A6A6A
+	font-weight 300
+	.pictures
+		size 459px 100%
+		position absolute
+		left 0
+		top 0
+		border-right 1px solid #B7BBC0
+		.prev, .next
+			size 18px 29px
+			position absolute
+			top 0
+			bottom 0
+			margin auto 17px
+			font-size 0
+		.prev
+			left 0
+			background url(image-base + 'thick-left.png')
+		.next
+			right 0
+			background url(image-base + 'thick-right.png')
+	.name
+		display block
+		padding-top 50px
+		font-size 24.16px
+		font-weight bold
+nav()
+	display flex
+	border-bottom 1px solid #DEE0E4
+	font-weight bold
+	li
+		margin-bottom -1px
+		&.active
+			border-bottom 3px solid $foreground-color
+		&:not(.active)
+			a, button
+				color $secondary-text-color
+		a, button
+			width 100%
+			height-vct 40px
+			display block
+			font-family 'League Spartan'
+			text-transform uppercase
+			text-align center

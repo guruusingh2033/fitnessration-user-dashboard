@@ -1,0 +1,107 @@
+@import '../_header'
+userdashboard > profile
+	the-layout()
+	.section
+		background-repeat no-repeat
+		// r-background-size auto, auto 13px
+		r-background-position 0 4px, 20px 21px
+		> *
+			display block
+			r-margin 0 45px 0 27px
+		&.name
+			background-image url(/images/user.png)
+			r-background-size auto, 15px
+		&.phone-number
+			background-image url(/images/phone.png)
+			r-background-size auto, 15px
+		&.email
+			background-image url(/images/envelope.png)
+			r-background-size auto, 17px
+		&.delivery-address
+			background-image url(/images/map-marker.png)
+			r-background-size auto, 14px
+		&.partner-membership
+			background-image url(/images/star.png)
+			r-background-size auto, 16px
+		&.email, &.phone-number
+			r-background-position 0 12px, 20px center
+		&.delivery-address
+			.value
+				> *
+					display block
+	.field
+		label 
+			font-weight bold
+		&:not(:first-child)
+			margin-top 11px
+	.delivery-address .addresses
+		.address, .postal-code
+			display block
+		+on-mobile()
+			option-list-container()
+			margin 0
+		+on-desktop()
+			ul
+				li
+					padding-left 27px
+					position relative
+					input[type="radio"]
+						position absolute
+						left 0
+						top 7px
+					&:not(:first-child)
+						margin-top 5px
+					&.selected
+						color #6A6A6A
+						.delete
+							background url(image-base + 'close.6A6A6A.png')
+					.delete
+						square 11px
+						position absolute
+						top 0
+						right 0
+						background url(image-base + 'close.A0A0A0.png')
+						font-size 0
+			.add-wrapper
+				margin-top 10px
+				.add
+					padding-left 21px
+					color #A0A0A0
+					background no-repeat url(image-base + 'thick-plus.png') center left
+					font-size 24px
+	+on-mobile()
+		.change-password
+			display block
+			width 100%
+			height-vct 65px false
+			text-align center
+			font-size 15px
+			font-weight bold
+			background #FAE9D9
+		.add-partner-code
+			add-container()
+		.delivery-address .addresses .add-wrapper, .add-partner-code
+			margin 10px -20px -20px
+			padding 10px 25px 11px
+	+on-desktop()
+		.name
+			width 100%
+			display flex
+			.field
+				margin-top 0
+				flex 1 0 0
+		.change-password
+			display block
+			width 460px
+			margin 0 auto 40px
+			font-size 24px
+			font-weight bold
+			text-align center
+		.partner-membership
+			.add-partner-code
+				margin-top 10px
+				.add
+					padding-left 21px
+					color #A0A0A0
+					background no-repeat url(image-base + 'thick-plus.png') center left
+					font-size 24px

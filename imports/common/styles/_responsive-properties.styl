@@ -1,0 +1,290 @@
+r-image(image, desktop-size=null, mobile-size=null)
+	if desktop-size
+		+on-desktop()
+			path = replace('%', s('%s', desktop-size), image)
+			background-image url(path)
+	if mobile-size
+		+on-mobile()
+			path = replace('%', s('%s', mobile-size), image)
+			background-image url(path)
+// ---text-align--- //
+d-background(value...)
+	+on-desktop()
+		background value
+m-background(value...)
+	+on-mobile()
+		background value
+r-background(desktop-value, mobile-value)
+	d-background desktop-value
+	m-background mobile-value
+// ---text-align--- //
+d-text-align(value)
+	+on-desktop()
+		text-align value
+m-text-align(value)
+	+on-mobile()
+		text-align value
+r-text-align(desktop-value, mobile-value)
+	d-text-align desktop-value
+	m-text-align mobile-value
+// ---border-radius--- //
+d-border-radius(value...)
+	+on-desktop()
+		border-radius value
+m-border-radius(value...)
+	+on-mobile()
+		border-radius value
+r-border-radius(desktop-value, mobile-value)
+	d-border-radius desktop-value
+	m-border-radius desktop-value
+// ---border--- //
+d-border(value...)
+	+on-desktop()
+		border value
+m-border(value...)
+	+on-mobile()
+		border value
+r-border(desktop-value, mobile-value)
+	d-border desktop-value
+	m-border desktop-value
+// ---border-width--- //
+d-border-width(value)
+	+on-desktop()
+		border-width value
+m-border-width(value)
+	+on-mobile()
+		border-width value
+r-border-width(desktop-value, mobile-value)
+	d-border-width desktop-value
+	m-border-width mobile-value
+// ---color--- //
+d-color(value)
+	+on-desktop()
+		color value
+m-color(value)
+	+on-mobile()
+		color value
+r-color(desktop-value, mobile-value)
+	d-color desktop-value
+	m-color mobile-value
+// ---font-size--- //
+d-font-size(value)
+	+on-desktop()
+		font-size value
+m-font-size(value)
+	+on-mobile()
+		font-size value
+r-font-size(desktop-value, mobile-value)
+	d-font-size desktop-value
+	m-font-size mobile-value
+// --- width --- //
+d-width(value)
+	+on-desktop(value)
+		width value
+m-width(value)
+	+on-mobile(value)
+		width value	
+r-width(desktop-value, mobile-value)
+	d-width desktop-value
+	m-width mobile-value
+// --- height-vct --- //
+d-height-vct(value)
+	+on-desktop()
+		height-vct value
+m-height-vct(value)
+	+on-mobile()
+		height-vct value
+r-height-vct(desktop-value, mobile-value)
+	d-height-vct desktop-value
+	m-height-vct mobile-value
+// --- height --- //
+m-height(value)
+	+on-mobile()
+		height value
+d-height(value)
+	+on-desktop()
+		height value
+r-height(desktop-value, mobile-value)
+	d-height desktop-value
+	m-height mobile-value
+// --- margin-top --- ///
+m-margin-top(value)
+	+on-mobile()
+		margin-top value
+r-margin-top(desktop-value, mobile-value)
+	+on-desktop()
+		margin-top desktop-value
+	+on-mobile()
+		margin-top mobile-value
+// --- padding-left --- //
+d-padding-left(value)
+	+on-desktop()
+		padding-left value
+m-padding-left(value)
+	+on-mobile()
+		padding-left value
+r-padding-left(desktop-value, mobile-value)
+	d-padding-left desktop-value
+	m-padding-left mobile-value
+// --- padding-top --- //
+d-padding-top(value)
+	+on-desktop()
+		padding-top value
+m-padding-top(value)
+	+on-mobile()
+		padding-top value
+r-padding-top(desktop-value, mobile-value)
+	+on-desktop()
+		padding-top desktop-value
+	+on-mobile()
+		padding-top mobile-value
+// --- padding-top --- //
+d-padding-bottom(value)
+	+on-desktop()
+		padding-bottom value
+m-padding-bottom(value)
+	+on-mobile()
+		padding-bottom value
+r-padding-bottom(desktop-value, mobile-value)
+	+on-desktop()
+		padding-bottom desktop-value
+	+on-mobile()
+		padding-bottom mobile-value
+// --- margin-top --- //
+m-margin-top(value)
+	+on-mobile()
+		margin-top value
+d-margin-top(value)
+	+on-desktop()
+		margin-top value
+r-margin-top(desktop-value, mobile-value)
+	d-margin-top desktop-value
+	m-margin-top mobile-value
+// --- margin-left --- //
+m-margin-left(value)
+	+on-mobile()
+		margin-left value
+d-margin-left(value)
+	+on-desktop()
+		margin-left value
+r-margin-left(desktop-value, mobile-value)
+	d-margin-left desktop-value
+	m-margin-left mobile-value
+// --- margin-bottom --- //
+m-margin-bottom(value)
+	+on-mobile()
+		margin-bottom value
+d-margin-bottom(value)
+	+on-desktop()
+		margin-bottom value
+r-margin-bottom(desktop-value, mobile-value)
+	d-margin-bottom desktop-value
+	m-margin-bottom mobile-value
+// --- background-size --- //
+m-background-size(value)
+	+on-mobile()
+		background-size value
+r-background-size(desktop-value, mobile-value)
+	+on-desktop()
+		background-size desktop-value
+	m-background-size mobile-value
+// --- background-position --- //
+m-background-position(value)
+	+on-mobile()
+		background-position value
+r-background-position(desktop-value, mobile-value)
+	+on-desktop()
+		background-position desktop-value
+	m-background-position mobile-value
+// --- square --- //
+r-square(desktop-size, mobile-size)
+	+on-desktop()
+		square desktop-size
+	+on-mobile()
+		square mobile-size
+// --- line-height --- //
+r-line-height(desktop-value, mobile-value)
+	+on-desktop()
+		line-height desktop-value
+	+on-mobile()
+		line-height mobile-value
+// --- background-image-colors --- //
+r-background-image-colors(desktop-value, mobile-value)
+	+on-desktop()
+		background-image-colors desktop-value
+	+on-mobile()
+		background-image-colors mobile-value
+///
+r-size(desktop-width, desktop-height, mobile-width, mobile-height)
+	+on-desktop()
+		size desktop-width desktop-height
+	+on-mobile()
+		size mobile-width mobile-height
+m-display(value)
+	+on-mobile()
+		display value
+m-padding(args...)
+	+on-mobile()
+		padding args
+d-padding(args...)
+	+on-desktop()
+		padding args
+r-padding(args...)
+	+on-desktop()
+		if length(args)/2 == 1
+			padding args[0]
+		if length(args)/2 == 2
+			padding args[0] args[1]
+		if length(args)/2 == 3
+			padding args[0] args[1] args[2]
+		if length(args)/2 == 4
+			padding args[0] args[1] args[2] args[3]
+	+on-mobile()
+		if length(args)/2 == 1
+			padding args[1]
+		if length(args)/2 == 2
+			padding args[2] args[3]
+		if length(args)/2 == 3
+			padding args[3] args[4] args[5]
+		if length(args)/2 == 4
+			padding args[4] args[5] args[6] args[7]
+r-margin(args...)
+	+on-desktop()
+		if length(args)/2 == 1
+			margin args[0]
+		if length(args)/2 == 2
+			margin args[0] args[1]
+		if length(args)/2 == 3
+			margin args[0] args[1] args[2]
+		if length(args)/2 == 4
+			margin args[0] args[1] args[2] args[3]
+	+on-mobile()
+		if length(args)/2 == 1
+			margin args[1]
+		if length(args)/2 == 2
+			margin args[2] args[3]
+		if length(args)/2 == 3
+			margin args[3] args[4] args[5]
+		if length(args)/2 == 4
+			margin args[4] args[5] args[6] args[7]
+r-padding2(desktop-v1, desktop-v2, mobile-v1, mobile-v2)
+	+on-desktop()
+		padding desktop-v1 desktop-v2
+	+on-mobile()
+		padding mobile-v1 mobile-v2
+m-border-top(a1, a2=null, a3=null)
+	+on-mobile()
+		border-top a1 a2 a3
+r-top(desktop-value, mobile-value)
+	+on-desktop()
+		top desktop-value
+	+on-mobile()
+		top mobile-value
+// r(desktop-value, mobile-value)
+// 	+on-desktop()
+// 		add-property(current-property[0], desktop-value)
+// 	+on-mobile()
+// 		add-property(current-property[0], mobile-value)
+d-padding-bottom(value)
+	+on-desktop()
+		padding-bottom value

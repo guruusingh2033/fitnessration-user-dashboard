@@ -1,0 +1,35 @@
+@import '../_header'
+force-device = 'mobile'
+#confirm-reorder order
+	bundle
+		bundle_base()
+	order_item_mobile()
+force-device = null
+
+#confirm-reorder
+	+on-desktop()
+		max-width 760px
+		min-width 380px
+		order .bundles
+			> li
+				width 380px
+				&:not(:first-child)
+					border-top none
+				&:nth-child(even)
+					border-left 1px solid $border-color
+			display flex
+			flex-wrap wrap
+		.order-info > .total
+			width 380px
+			margin-left auto
+			border-left 1px solid $border-color
+
+	+on-mobile()
+		width 290px
+	order
+		.number, .transaction-info, .reorder, .show-details, .hide-details, .order-info .delivery-date-time, .delivery-address, .extra
+			display none
+	button, .confirm
+		order_button()
+		&.confirm
+			order_button_primary()

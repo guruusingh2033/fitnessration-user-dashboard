@@ -1,0 +1,98 @@
+@import '_header'
+#welcome-back-wrapper
+	position fixed
+	left 0
+	right 0
+	bottom 0
+	top 0
+	z-index 1000
+	background-color rgba(74, 74, 74, .6)
+#welcome-back
+	+on-desktop()
+		size 431px 580px
+		border-radius 10px
+		left 0
+		right 0
+		top 0
+		bottom 0
+		margin auto
+		position absolute
+	+on-mobile()
+		height 100%
+	overflow hidden
+	position relative
+	background-color #FBF4ED
+	.header
+		height 69px
+		background-color #FAE9D9
+		position relative
+		h2
+			margin 0
+			height-vct 69px true
+			r-font-size 24px 16px
+			text-align center
+			font-family 'League Spartan'
+		.close
+			square 11px
+			background url(image-base + 'close.A0A0A0.png')
+			position absolute
+			right 20px
+			top 0
+			bottom 0
+			margin auto
+			border none
+			font-size 0
+	.body
+		padding-top 1px
+		.photo
+			display block
+			r-square 150px 75px
+			border-radius 100%
+			overflow hidden
+			r-margin 32px auto 30px 55px auto 16px
+			background url(image-base + 'user-photo-placeholder.png')
+			background-size cover
+		.name, .meal-plan, .portion
+			r-width 222px 146px
+		.name
+			display block
+			r-margin 0 auto 13px 0 auto 5px
+			r-padding-bottom 10px 7px
+			border-bottom 1px solid #979797
+			text-align center
+			r-font-size 25.71px 18px
+			font-family 'League Spartan'
+		.meal-plan
+			meal-plan-icon()
+		.portion
+			portion-icon()
+		.meal-plan, .portion
+			box-sizing border-box
+			display block
+			r-margin 0 auto 10px 0 auto 5px
+			r-padding-left 80px 36px
+			r-font-size 20.57px 18px
+			font-family 'Mission Gothic'
+			color #6A6A6A
+			r-background-position 40px center, 10px center
+	.footer
+		width 100%
+		position absolute
+		bottom 0
+		background-color white
+		a
+			display block
+			r-height-vct 70px 50px
+			color white
+			r-font-size 18px 12px
+			font-weight normal
+			text-align center
+			text-transform uppercase
+			font-family 'League Spartan'
+			&.edit-preferences
+				r-margin-bottom 2px 1px
+				background #7392B7 url(image-base + 'left-arrow.10-accent-foreground.png') no-repeat
+				r-background-position center left 35px, center left 14px
+			&.next
+				background #EC5623 url(image-base + 'right-arrow.10-accent-foreground.png') no-repeat
+				r-background-position center right 35px, center right 14px
